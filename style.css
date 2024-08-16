@@ -5,11 +5,14 @@
     color: white;
 font-family: "ROBOTO";
 }
-body{
+
+
+.container{
    display: flex;
    justify-content: center;
    flex-direction: column;
    align-items: center;
+   height: 100vh;
 
 }
 
@@ -97,9 +100,6 @@ transform: translate(-50%,-50%);
     justify-content: space-between;
     padding: 20px;
 }
-
-
-
 
 .imageicon{
     width:50px
@@ -213,13 +213,10 @@ footer{
     .humid-value,.Wind-value,.para-text{
         font-size: 10px;
     }
-
-
     
     footer{
         margin-bottom: 10px;
         font-size: 10px;
-    }
-    
+    }   
     
     }
