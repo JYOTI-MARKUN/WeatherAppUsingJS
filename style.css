@@ -13,10 +13,7 @@ font-family: "ROBOTO";
    flex-direction: column;
    align-items: center;
    height: 100vh;
-
 }
-
-
 
 .all-content{
 background: linear-gradient(135deg, #00feba, #5b548a);
