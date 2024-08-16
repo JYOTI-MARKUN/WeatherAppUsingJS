@@ -48,7 +48,8 @@ function weatherData(name){
             invalidCity.classList.add("invalid-city")
             cityName.innerText = data.name
             tempretureValue.innerText = Math.floor(data.main.temp)
-            tempFeelsLike.innerText = `Feels like ${data.main.feels_like}`
+
+            tempFeelsLike.innerText = `Feels like ${Math.floor(data.main.feels_like)}`
             console.log(data.main.humidity)
             humidValue.innerText = `${data.main.humidity}%`
             windSpeed.innerText = `${data.wind.speed}km/h`
